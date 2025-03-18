@@ -12,6 +12,7 @@ const RootLayout = () => {
       fontSize:20,
       fontWeight:'bold'
     },
+    headerTitleAlign:"center",
     contentStyle:{
       paddingHorizontal:10,
       paddingTop:10,
@@ -20,7 +21,9 @@ const RootLayout = () => {
 
 
   }}>
+    {/* <Stack.Screen name="index" options={{headerShown:false}}/> */}
     <Stack.Screen name="index" options={{title:'Home'}}/>
+    <Stack.Screen name="users" options={{title:'Users Page'}}/>
   </Stack>
   
 }
