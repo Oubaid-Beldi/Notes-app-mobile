@@ -11,7 +11,7 @@ const HomeScreen = ()=> {
       <Image source={PostItImage} style={styles.image}/>
       <Text style={styles.title}> Welcome To Notes App</Text>
       <Text style={styles.subtitle}> Capture your thoughts anytime , anywhere </Text>
-      <TouchableOpacity style={styles.btn} onPress={()=>router.push('/notes')}>
+      <TouchableOpacity style={styles.btn} onPress={()=>router.push('notes')}>
       <Text style={styles.btnText}>Get Started</Text>
       </TouchableOpacity>
     </View>

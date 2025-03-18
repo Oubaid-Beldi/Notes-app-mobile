@@ -1,3 +1,4 @@
+
 import { Stack } from "expo-router";
 
 const RootLayout = () => {
@@ -23,7 +24,8 @@ const RootLayout = () => {
   }}>
     {/* <Stack.Screen name="index" options={{headerShown:false}}/> */}
     <Stack.Screen name="index" options={{title:'Home'}}/>
-    <Stack.Screen name="users" options={{title:'Users Page'}}/>
+    <Stack.Screen name="notes" options={{headerTitle:'Notes'}}/>
+    
   </Stack>
   
 }
